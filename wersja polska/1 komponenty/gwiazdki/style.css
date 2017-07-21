@@ -1,0 +1,77 @@
+
+.star8 {
+	display: inline-block;
+	margin: 2em;
+	transform: rotate(22deg);
+	transition: background linear .3s;
+}
+
+.star8:before {
+	background: white;
+	content: "";
+	position: absolute;
+	top: -5px;
+	transform: rotate(45deg);
+	display: inline-block;
+		left: -5px;
+}
+
+.star8, .star8:before, i.fa {
+	width: 80px;
+	height: 80px;
+}
+
+.gold, .gold:before {
+	border: solid;
+	border-width: 6px;
+	border-color:  #ffc107;
+	
+}
+
+.orange, .orange:before {
+	border: solid;
+	border-width: 6px;
+	border-color: #fd7e33;
+	
+}
+
+.blue, .blue:before {
+	border: solid;
+	border-width: 6px;
+	border-color: #3fb0ac;
+
+}
+
+i.fa {
+	margin: 0;
+	position: absolute;
+	background: white; 
+	font-size: 60px;
+	
+}
+
+i.fa:before {
+	position: absolute;
+	margin: 10px;
+	transform: rotate(-22deg);
+	transition: ease-in-out .3s;
+	
+}
+
+.gold:hover, .gold:hover:before, .gold:hover i.fa {
+	background-color: #ffc107;
+	transition: ease-in-out .3s;
+	color: white;
+}
+
+.orange:hover, .orange:hover:before, .orange:hover i.fa {
+	background-color: #fd7e33;
+	transition: ease-in-out .3s;
+	color: white;
+}
+
+.blue:hover, .blue:hover:before, .blue:hover i.fa {
+	background-color: #3fb0ac;
+	transition: ease-in-out .3s;
+	color: white;
+}

@@ -1,0 +1,28 @@
+.hero {
+	background: url('https://images.pexels.com/photos/340742/pexels-photo-340742.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');	
+}
+
+.hero h1 {
+	color: white;
+}
+
+.hero h1 > small {
+	color: white;
+}
+
+
+.tabela {
+	padding: 50px;
+	margin-top: 20px;
+}
+
+.form {
+	width: 75%;
+	margin: 0 auto;
+}
+
+.btn {
+	margin: 5px;
+}
+
+

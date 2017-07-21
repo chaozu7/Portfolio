@@ -1,0 +1,69 @@
+body {
+	background: url('https://www.ciee.org/study-abroad/images/programs/0778/headers/desktop/paris-france-global-institute-open-campus-main.jpg') no-repeat fixed top;
+	
+}
+
+.btn-liberte {
+	border: #e61919;
+	color: #e61919;
+	height: 100%;
+	transition: .3s;
+	background: linear-gradient(90deg, #e61919 50%, transparent 50%);
+}
+
+.btn-liberte:hover {
+	background-position: 0 100%;
+	background-size: 300%;
+	color: white;
+}
+
+.btn-egalite {
+	border: #fff;
+	color: #fff;
+	height: 100%;
+	transition: .3s;
+	background: linear-gradient(45deg, #fff 50%, transparent 50%);
+}
+
+.btn-egalite:hover {
+	background-position: 0 100%;
+	background-size: 300%;
+	color: black;
+}
+
+.btn-fraternite {
+	border: #00f;
+	color: #00f;
+	height: 100%;
+	transition: .3s;
+	background: linear-gradient(125deg, #00f 50%, transparent 50%);
+}
+
+.btn-fraternite:hover {
+	background-position: 0 100%;
+	background-size: 300%;
+	color: white;
+}
+
+[class^="btn-"] {
+	display: inline-block;
+	margin: 4px 2px;
+	padding: 15px 30px;
+	width: 150px;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 5px;
+	cursor: pointer;
+	background-color: inherit;
+	border: solid;
+	border-width: 4px;
+	background-position: 100% 0;
+	background-size: 300%;
+	transition: .4s;	
+	
+}
+
+.container {
+	text-align: center;
+}
+

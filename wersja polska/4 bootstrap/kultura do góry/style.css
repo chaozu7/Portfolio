@@ -1,0 +1,36 @@
+.jumbotron {
+	background: url('https://images.pexels.com/photos/340742/pexels-photo-340742.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');	
+}
+
+.jumbotron h1 {
+	color: white;
+}
+
+.jumbotron h1 > small {
+	color: white;
+}
+ /*czy strona powinna być zrównana z navi pod względem szerokości */
+
+.tabela {
+	padding: 50px;
+	margin-top: 20px;
+}
+
+ 
+body {
+	padding: 50px;
+}
+
+
+form {
+	margin: 50px 0;
+	padding: 0;
+}
+
+.tabela {
+	padding: 0;
+}
+
+.archive {
+	padding: 0;
+}

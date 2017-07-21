@@ -1,0 +1,63 @@
+* {
+	box-sizing: border-box;
+}
+
+
+.jumbotron {
+	height: 100vh;
+	width: 100%;
+	padding: 42vh;
+	box-sizing: border-box;
+	text-align: center;
+	background: url('http://kodilla.com/static/lessons/blue-mountain.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.jumbotron h1 {
+	margin: 0;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 38px;
+	font-weight: bold;
+	color: white;
+}
+
+.jumbotron button {
+	margin: 20px 0;
+	padding: 20px 40px;
+	background: #4577ed;
+	font-size: 20px;
+	font-family: 'Quicksand', sans-serif;
+	border: none;
+	cursor: pointer;
+	transition: .3s
+}
+
+button:hover {
+	background: #7e9fed;
+}
+
+.gallery {
+	float: left;
+	width: 100%
+}
+
+.gallery img:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.gallery img {
+	float:left;
+	width: 25%;
+}
+
+
+
+
+
+
+
+	

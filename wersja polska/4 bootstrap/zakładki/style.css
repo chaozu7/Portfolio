@@ -1,0 +1,17 @@
+#myCarousel {
+	margin-top: 50px;
+}
+
+.nav {
+	margin-top: 15px;
+}
+
+
+.item img {
+	width: 100%;
+	height: 200px;
+}
+
+.btn {
+	margin: 15px;
+}

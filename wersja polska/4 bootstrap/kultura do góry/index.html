@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>	
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		<meta name="description" content="Komponenty Bootstrap">
+		<meta name="author" content="KB">
+		<title> Komponenty </title>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<nav class="navbar navbar-inverse navbar-fixed-top">
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#test" aria-expanded="false">
+        					<span class="sr-only">Toggle navigation</span>
+        					<span class="icon-bar"></span>
+        					<span class="icon-bar"></span>
+        					<span class="icon-bar"></span>
+      						</button>
+							<a class="navbar-brand" href="#">WebSiteName
+							</a> 
+						</div>
+						<div id="test" class="collapse navbar-collapse">
+							<ul class="nav navbar-nav">
+      							<li class="active"><a href="#">Home</a></li>
+      							<li><a href="#">Page 1</a></li>
+      							<li><a href="#">Page 2</a></li>
+      							<li><a href="#">Page 3</a></li>
+    						</ul>
+						<form class="navbar-form navbar-right">
+			        		<div class="form-group">
+			        			 <input type="text" class="form-control" placeholder="Search">
+			    			 </div>
+			      		</form>
+    					</div>
+    				</div>
+    			</nav>
+				<div class="jumbotron text-center">
+					<h1> 	
+						To jest nagłówek strony internetowej
+						<small>
+							- będzie fajna.
+						</small>
+					</h1>
+					<button class="btn btn-primary"> 
+						Kliknij mnie
+					</button> 
+				</div>
+			</header>
+			<div class="gallery row clearfix">
+				<h1 class="text-center"> 
+					Galeria obrazów
+				</h1>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<img src="https://images.unsplash.com/photo-1490084907624-614a85d71bca?dpr=1&auto=compress,format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=&bg=" alt="smolensk" class="img-responsive">
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<img src="https://images.unsplash.com/photo-1487073101887-b897adf7cd92?dpr=1&auto=compress,format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=&bg=" alt="koles" class="img-responsive">
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<img src="https://images.unsplash.com/photo-1459381484519-d5191fddc858?dpr=1&auto=compress,format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=&bg=" alt="ladny_klif" class="img-responsive">
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<img src="https://images.unsplash.com/photo-1465173904241-1f101f249d97?dpr=1&auto=compress,format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=&bg=" alt="hiper-lot" class="img-responsive">
+				</div>
+			</div>
+			<div class="table table-responsive">	
+				<h2 class="text-center">
+					Nieładujące się obrazki są złe
+				</h2>
+				<table class="table table-bordered table-striped text-center">
+					<thead>
+						<tr>
+							<th class="text-center">
+								Obraz
+							</th>
+							<th class="text-center">
+								Co przedstawia
+							</th>
+							<th class="text-center">
+								Czy ładny?
+							</th>
+						</tr>
+					</thead>	
+					<tbody>	
+						<tr>
+							<td>
+								Smoleńsk 
+							</td>
+							<td> 
+								Wrak samolotu 
+							</td>
+							<td> 	
+								Tak, piękny 
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Koleś
+							</td>
+							<td>	
+								Trochę jakby Kacpra
+							</td>
+							<td>
+								No, no
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Ładny klif
+							</td>
+							<td>
+								Klif
+							</td>
+							<td>
+								Trochę straszny
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Piękny lot
+							</td>
+							<td>	
+								Paralotniarza
+							</td>
+							<td>	
+								Super-hiper
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+				<div class="media">
+    				<div class="media-left">
+        				<a href="http://kulturadogorynogami.pl/2017/04/27/kulturalni-ulubiency-kwietnia-do-gory-nogami/">
+            			<img class="media-object" width="64" height="64" src="http://kulturadogorynogami.pl/wp-content/uploads/2017/04/Big-Little-Lies-Houses.jpg" alt="pinterest">
+        				</a>
+    				</div>
+    				<div class="media-body">
+        				<h4 class="media-heading">
+        					Kulturalni ulubieńcy kwietnia
+        				</h4>
+        				<p>
+        				Jakkolwiek banalnie to zabrzmi, codzienne małe przyjemności naprawdę poprawiają jakość życia, a celebrowanie zwyczajności potrafi zrobić dzień. Wstaję godzinę wcześniej, mielę kawę i zaparzam ją w czerwonym driperze. Zapach świeżej kawy rozbudza lepiej niż zimny prysznic i dziesiąta drzemka. Znalazłam czas na czytanie przy śniadaniu i po prostu… rozpoczynanie dnia z energią, której bardziej niż kofeina dostarcza mi nowy rytuał.
+        				</p>
+    				</div>
+				</div>
+    			<div class="row">
+        		<div class="col-md-3">
+        			<img src="https://images.unsplash.com/photo-1490084907624-614a85d71bca?dpr=1&auto=compress,format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=&bg=" alt="smolensk" class="img-responsive img-thumbnail">
+        		</div>
+        		<div class="col-md-3">
+        			<img src="https://images.unsplash.com/photo-1487073101887-b897adf7cd92?dpr=1&auto=compress,format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=&bg=" alt="koles" class="img-responsive img-thumbnail">
+        		</div>
+        		<div class="col-md-3">
+        			<img src="https://images.unsplash.com/photo-1459381484519-d5191fddc858?dpr=1&auto=compress,format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=&bg=" alt="klif" class="img-responsive img-thumbnail">
+        		</div>
+        		<div class="col-md-3">
+        			<img src="https://images.unsplash.com/photo-1465173904241-1f101f249d97?dpr=1&auto=compress,format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=&bg=" alt="hiper-lot" class="img-responsive img-thumbnail">
+        		</div>
+    		</div>
+    			<form>
+					<div class="form text-center">
+						<div class="form-group">
+    						<label for="exampleInputEmail1">
+    							Name
+    						</label>
+    						<input type="text" class="form-control" id="exampleInputEmail1" placeholder="say your name">
+  						</div>
+  						<div class="form-group">
+    						<label for="exampleInputPassword1">
+    							E-mail
+    						</label>
+							<input type="email" class="form-control" id="exampleInputPassword1" placeholder="E-mail">
+  						</div>
+    					<textarea class="form-control" rows="3"></textarea>
+  						<button type="submit" class="btn btn-default">
+  							Submit
+  						</button>
+  					</div>
+  				</form>
+  			<div class="archive text-center">	
+  				<a class="btn btn-default" href="#" role="button">
+  				<span class="glyphicon glyphicon-tasks text-center" aria-hidden="true"> Przejdź do archiwum
+  				</span>
+  				</a>
+  			</div>
+  		</div>
+  	</body>
+</html>
+		

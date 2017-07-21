@@ -1,0 +1,62 @@
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #696969;
+	font-family: "Quicksand";
+	margin: 0;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	padding:25px;
+	display: block;
+}
+
+nav ul {
+	background: #778899;
+	top: 0;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+
+}
+
+nav ul li {
+	display: inline-block;
+	width: 150px;
+	position: relative;
+
+}
+
+		
+nav ul li:hover {
+	background:#7e9fed;
+	
+}
+
+nav ul li:hover ul {
+	display: block;
+}
+	
+nav ul li ul {
+	position: absolute;
+	display: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	top: 100%;
+}
+	
+nav ul li ul li {
+	display: block;
+	position: relative;
+	
+}
+
+nav ul li ul li a {
+	display: block;
+}
