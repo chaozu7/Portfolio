@@ -1,0 +1,34 @@
+{
+  "name": "gra",
+  "version": "1.0.0",
+  "description": "papier_kamien_nozyce",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "win"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaozu7/9.0.git"
+  },
+  "keywords": [
+    "game",
+    "to",
+    "win"
+  ],
+  "author": "Kamila Bogacz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chaozu7/9.0/issues"
+  },
+  "homepage": "https://github.com/chaozu7/9.0#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0",
+    "imagemin": "^5.3.1",
+    "sass": "^0.5.0"
+  }
+}

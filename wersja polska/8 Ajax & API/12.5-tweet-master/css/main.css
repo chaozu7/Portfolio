@@ -1,0 +1,37 @@
+.container {
+     background: #b3b3ff;
+     display: inline-block;
+     max-width: 1200px;
+     height: 250px;
+	
+}
+
+.containetr main {
+	margin: 0 auto;
+}
+
+.container header {
+    text-shadow: 1px 1px 3px #000033;
+    color: #e6e6ff;
+    text-align: center;
+}
+
+.trigger {
+  background: #ffffb3;
+  margin: 0 auto;
+  border-radius: 25%;
+  padding: 5px; 
+}
+
+.button {
+  text-align: center;
+  margin: 5px;
+}
+
+.button:hover {
+  transform: scale3d(1.5, 1.5, 1);
+}
+
+.button a {
+	margin: 5px;
+}

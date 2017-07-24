@@ -1,0 +1,373 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic)
+
+* 
+    box-sizing: border-box
+
+.col-1 
+    width: 8.33%
+.col-2 
+    width: 16.66%	
+.col-3 
+    width: 25%
+.col-4 
+    width: 33.33%
+.col-5 
+    width: 41.66%	
+.col-6 
+    width: 50%
+.col-7 
+    width: 58.33%
+.col-8 
+    width: 66.66%
+.col-9 
+    width: 75%
+.col-10 
+    width: 83.33%
+.col-11
+    width: 91.66%
+.col-12 
+    width: 100%
+.col-offset-1 
+    margin-left: 8.33%
+    
+.clearfix:before,
+.clearfix:after 
+    content: ""
+    clear: both
+    display: table
+    
+$main-fonts: #fff
+$main-color: #313234
+
+
+body
+    margin: 0 auto
+    font-family: 'Open Sans', sans-serif
+    width: 100%
+    height: 100%
+    
+.container 
+    @extend body
+    max-width: 1200px
+        
+#header
+    background-color: $main-color
+    height: 50px
+    background-color: rgba(0,0,0,0.5)
+    width: 100%
+    nav
+        .logo
+            img
+                height: 50px
+        ul
+            margin: 0
+            padding: 0
+            list-style-type: none
+            text-align: right
+            li
+                display: inline-block
+                a
+                    text-decoration: none
+                    padding: 0 20px
+                    line-height: 50px 
+                    display: block
+                    color: $main-fonts
+                    text-transform: uppercase
+                    &:hover 
+                        color: #ccc
+
+.hero
+    background: url(https://images.unsplash.com/photo-1485609315582-cfffa02888e8?dpr=1&amp;auto=compress,format&amp;fit=crop&amp;w=1199&amp;h=799&amp;q=80&amp;cs=tinysrgb&amp;crop=&amp;bg=)
+    background-repeat: no-repeat
+    background-position: center
+    height: 300px
+
+    
+.icons 
+    display: inline-block
+
+
+[class*='col-'] 
+    float: left
+
+
+.slogan 
+    float: right
+    background-color: $main-color
+    opacity: 0.5
+    margin-top: 100px
+    
+    h1
+        color: $main-fonts
+        text-transform: uppercase
+        font-weight: normal
+    p
+        @extend h1
+        font-weight: bold
+
+.works 
+    text-align: center
+
+.gallery
+    img
+        width: 100%
+        height: 100px
+
+.fa 
+    color: $main-fonts
+    border-radius: 15px
+    padding: 10px
+
+
+.fa-search,
+.fa-cog 
+    background: $main-color
+    background-size: cover
+
+
+.fa-mobile 
+    background: #33d6ff
+    background-size: cover
+    
+
+.icons 
+    margin: 5% 15%
+
+
+.ico-box,
+.ico-box-1
+    text-align: center
+
+
+.ico-box-1 
+    h3 
+        color: $main-color
+
+
+.ico-box,
+.ico-box-1 
+    h3 
+        text-transform: uppercase
+
+.ico-box,
+.ico-box-1
+    p 
+        padding: 5px
+
+.works 
+    h1 
+        text-transform: uppercase
+
+.photo1,
+.photo2 
+    position: relative
+    overflow: hidden
+
+
+.photo1,
+.photo2     
+    .layer
+        width: 100%
+        height: 100%
+        position: absolute
+        transition: background 300ms
+        color: $main-fonts
+        text-align: center
+        .fa
+            position: relative
+            top: 50%
+            transform: translateY(-50%)
+            opacity: 0
+            transition: opacity 300ms
+.photo1,
+.photo2
+    &:hover,
+    &:hover 
+        .layer
+            background: rgba(0, 0, 0, .3)
+            .fa
+                opacity: 1  
+
+.gallery 
+    line-height: 0
+
+.worker 
+    width: 100px
+    height: 100px
+    position: relative
+    overflow: hidden
+    border-radius: 50%
+    margin: 0 auto
+    .layer 
+        width: 100%
+        height: 100%
+        position: absolute
+        transition: background 300ms
+        color: $main-fonts
+        text-align: center
+        p
+            margin: 0
+            line-height: 100px
+            font-size: 26px
+            text-transform: uppercase
+            opacity: 0
+            transition: opacity 300ms
+    img
+        max-width: 150%
+
+
+
+    &:hover
+        cursor: pointer
+        .layer
+            background: rgba(0, 0, 0, .3)
+            p   
+                opacity: 1  
+
+.workers 
+    height: 100%
+    margin: 0 auto
+    padding: 20px 0
+    p 
+        text-align: center
+
+.obraz
+    padding: 0
+    img 
+        width: 100%
+
+.news
+    background-color: $main-color
+
+.numbers
+    margin: 5% 15%
+    text-align: center
+    p 
+        text-transform: uppercase
+        color: $main-color
+        font-weight: bold
+    h2 
+        font-weight: bold
+
+.text
+    h2
+        padding: 2px
+        text-transform: uppercase
+    
+.text 
+    .two 
+        font-style: italic
+        margin: 0 5px
+
+footer 
+    text-align: center
+    color: $main-fonts
+    background-color: black
+    padding: 10px
+    p
+        margin-bottom: 0
+
+
+.git 
+    margin: 0 auto
+    display: block
+
+
+.wartosci 
+    text-align: center
+
+
+.social
+    button
+        .fa
+            &:hover
+                color: blue
+                cursor: pointer
+
+
+.headlines
+    font-weight: bold
+
+
+@media(max-width: 768px)    
+
+    #header 
+        height: 100%
+        nav
+            .logo
+                text-align: center
+                img 
+                    width: 100px
+            ul
+                li
+                    display: block
+                    text-align: center
+                    padding: 0
+                    a
+                        &:hover
+                            color: white
+        
+    .ico-box 
+        margin: 0 auto
+    
+    .text 
+        .two,
+        .one 
+            margin: 0 auto
+            text-align: justify
+            padding: 10px
+    
+    
+    .news 
+        text-align: center
+        
+    .col-m-1 
+        width: 8.33%
+    .col-m-2 
+        width: 16.66%	
+    .col-m-3 
+        width: 25%	
+    .col-m-4 
+        width: 33.33%
+    .col-m-5 
+        width: 41.66%
+    .col-m-6 
+        width: 50%
+    .col-m-7 
+        width: 58.33%	
+    .col-m-8 
+        width: 66.66%
+    .col-m-9 
+        width: 75%
+    .col-m-10 
+        width: 83.33%
+    .col-m-11 
+        width: 91.66%
+    .col-m-12 
+        width: 100%
+
+
+    .col-m-offset-0 
+        margin-left: 0
+    .col-m-offset-1
+        margin-left: 8.33%
+    .col-m-offset-2 
+        margin-left: 16.66%
+    .col-m-offset-3
+        margin-left: 25%
+    .col-m-offset-4 
+        margin-left: 33.33%
+    .col-m-offset-5
+        margin-left: 41.66%
+    .col-m-offset-6
+        margin-left: 50%
+    .col-m-offset-7
+        margin-left: 58.33%
+    .col-m-offset-8
+        margin-left: 66.66%
+    .col-m-offset-9
+        margin-left: 75%
+    .col-m-offset-10
+        margin-left: 83.33%
+    .col-m-offset-11
+        margin-left: 91.66%
