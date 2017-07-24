@@ -182,5 +182,37 @@ a {
 	font-weight: bold;
 	color: black;
 	text-transform: capitalize;
-	line-height: 45px;
+	text-align: center;
+	margin: auto;
+	vertical-align: middle;
+
+}
+
+/* animations */
+
+.box-red-side-1 {
+	background: yellow;
+}
+
+[class*='box-red-side-']a:visited {
+	background: red;
+}
+[class*='box-yellow-side-']a:visited {
+	background: yellow;
+}
+[class*='box-blue-side-']a:visited {
+	background: blue;
+}
+[class*='box-white-side-']a:visited {
+	background: white;
+}
+[class*='box-green-side-']a:visited {
+	background: green;
+}
+[class*='box-orange-side-']a:visited {
+	background: orange;
+}
+
+[class*='box-']:hover {
+	opacity: 0.5;
 }
