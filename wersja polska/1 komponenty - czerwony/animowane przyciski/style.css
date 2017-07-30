@@ -1,7 +1,3 @@
-body {
-	background: url('paris.jpg') no-repeat fixed top;
-	
-}
 
 .btn-liberte {
 	border: #e61919;
@@ -65,5 +61,7 @@ body {
 
 .container {
 	margin: 0 auto;
+	background: url('paris.jpg') no-repeat fixed top;
+	text-align:  center;
 }
 
