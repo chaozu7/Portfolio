@@ -1,9 +1,15 @@
 .hero {
-	background: url('https://images.pexels.com/photos/340742/pexels-photo-340742.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');	
+		height: 400px;	
+		background-image: url('air.jpg');
+		background-repeat: no-repeat;
+		margin-left: 10%;
 }
+
 
 .hero h1 {
 	color: white;
+	text-align: center;
+	line-height: 200px;
 }
 
 .hero h1 > small {
@@ -22,7 +28,10 @@
 }
 
 .btn {
-	margin: 5px;
+	background-color: #1b2433;
+	text-align: left;
+	height: 50px;
+	margin-left: -10%;
 }
 
 

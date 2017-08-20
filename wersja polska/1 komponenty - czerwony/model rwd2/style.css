@@ -3,10 +3,13 @@
 }
 
 
+
+
 .container {
-	max-width: 1200px;
+	min-width: 1200px;
 	width: 100%;
 	margin: 0 auto;
+	height: 100%;
 }
 
 
@@ -148,6 +151,11 @@ nav > ul > li:visited {
 	
 	.contact {
 	flex-direction: column;
+}
+
+
+nav > ul > li:hover {
+	background-color: #f0ffff;
 }
 }
 

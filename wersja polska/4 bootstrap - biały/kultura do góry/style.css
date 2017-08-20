@@ -1,5 +1,5 @@
 .jumbotron {
-	background: url('https://images.pexels.com/photos/340742/pexels-photo-340742.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');	
+	background: url('widok.jpg');	
 }
 
 .jumbotron h1 {
@@ -9,7 +9,6 @@
 .jumbotron h1 > small {
 	color: white;
 }
- /*czy strona powinna być zrównana z navi pod względem szerokości */
 
 .tabela {
 	padding: 50px;

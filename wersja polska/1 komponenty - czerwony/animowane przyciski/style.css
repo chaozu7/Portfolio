@@ -1,8 +1,13 @@
+* {
+	box-sizing: border-box;;
+}
+
+/*buttons */
 
 .btn-liberte {
 	border: #e61919;
 	color: #e61919;
-	height: 100%;
+	height: 50%;
 	transition: .3s;
 	background: linear-gradient(90deg, #e61919 50%, transparent 50%);
 }
@@ -16,7 +21,7 @@
 .btn-egalite {
 	border: #fff;
 	color: #fff;
-	height: 100%;
+	height: 50%;
 	transition: .3s;
 	background: linear-gradient(45deg, #fff 50%, transparent 50%);
 }
@@ -30,7 +35,7 @@
 .btn-fraternite {
 	border: #00f;
 	color: #00f;
-	height: 100%;
+	height: 50%;
 	transition: .3s;
 	background: linear-gradient(125deg, #00f 50%, transparent 50%);
 }
@@ -43,10 +48,9 @@
 
 [class^="btn-"] {
 	display: inline-block;
-	margin: 0 auto;
 	padding: 15px 30px;
 	width: 150px;
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: bold;
 	border-radius: 5px;
 	cursor: pointer;
@@ -55,15 +59,24 @@
 	border-width: 4px;
 	background-position: 100% 0;
 	background-size: 300%;
-	transition: .4s;	
+	transition: .4s;
+	text-align: center;	
+}
+
+/* background */
+
+.container {
+	min-width: 1200px;
 	
 }
 
-.container {
+.paris {
 	margin: 0 auto;
-	background: url('paris.jpg') no-repeat fixed top 100%;
-	text-align:  center;
-	max-width: 1200px;
-	max-height: 1000px;
+	background-image: url('paris.jpg');
+	background-repeat: no-repeat;
+	height: 300px;
+	width: 500px;
+	padding: 200px 20px 0;
 }
+
 

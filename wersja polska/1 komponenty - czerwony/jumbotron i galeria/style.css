@@ -42,6 +42,7 @@ button:hover {
 .gallery {
 	float: left;
 	width: 100%
+	margin
 }
 
 .gallery img:hover {
@@ -51,7 +52,13 @@ button:hover {
 
 .gallery img {
 	float:left;
+	padding: 10px;
+	text-align: center;
 	width: 25%;
+}
+
+.gallery:last-child {
+	margin: 0;
 }
 
 

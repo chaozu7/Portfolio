@@ -75,3 +75,8 @@ i.fa:before {
 	transition: ease-in-out .3s;
 	color: white;
 }
+
+.stars {
+	margin: 0 auto;
+	margin-left: 33%;
+}
