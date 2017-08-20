@@ -1,0 +1,400 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic);
+
+* {
+	box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+
+.col-1 {
+	width: 8.33%;
+}
+
+.col-offset-1 {
+	margin-left: 8.33%;
+}
+
+.col-2 {
+	width: 16.66%;	
+
+}
+
+
+.col-3 {
+	width: 25%;	
+}
+
+
+	
+.col-4 {
+	width: 33.33%;
+}
+.col-5 {
+	width: 41.66%;	
+}
+
+
+.col-6 {
+	width: 50%;
+}
+.col-7 {
+	width: 58.33%;	
+}
+
+
+.col-8 {
+	width: 66.66%;
+}
+.col-9 {
+	width: 75%;
+}
+.col-10 {
+	width: 83.33%;
+}
+
+.col-11 {
+	width: 91.66%;
+}
+.col-12 {
+	width: 100%;
+}
+
+
+#header {
+	background-color: #313234;
+	height: 50px;
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	
+}
+
+body {
+	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+	width: 100%;
+	height: 100%;
+}
+
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	width: 100%;
+	
+}
+
+
+#header nav img {
+	height: 50px;
+}
+
+#header nav ul li {
+	display: inline-block;
+}
+#header  nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: right;;
+}
+
+#header nav ul li a {
+	text-decoration: none;
+	padding: 0 20px;
+	line-height: 50px; 
+	display: block;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+#header nav ul li a:hover {
+	color: #ccc;
+}
+
+
+.hero {
+	background: url(https://images.unsplash.com/photo-1485609315582-cfffa02888e8?dpr=1&amp;auto=compress,format&amp;fit=crop&amp;w=1199&amp;h=799&amp;q=80&amp;cs=tinysrgb&amp;crop=&amp;bg=);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 300px;
+
+}
+	
+.icons {
+	display: inline-block;
+}
+
+[class*='col-'] {
+	float: left;
+}
+
+.slogan {
+	float:right;
+	background-color: rgb(0,0,0);
+	opacity: 0.5;
+	margin-top: 100px;
+}
+
+.slogan h1 {
+	color: white;
+	text-transform: uppercase;
+	font-weight: normal;
+	
+	
+}
+
+.slogan p {
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.works {
+	text-align: center;
+}
+
+
+
+.gallery img {
+	width: 100%;
+	height: 100px;
+}
+
+
+
+.fa {
+	color: white;
+	border-radius: 15px;
+	padding: 10px;
+}
+
+.fa-search,
+.fa-cog {
+	background: #293d3d;
+	background-size: cover;
+}
+
+.fa-mobile {
+	background: #33d6ff;
+	background-size: cover;
+}
+
+
+.icons {
+	margin: 5% 15%;
+}
+
+.ico-box,
+.ico-box-1{
+	text-align: center;
+}
+
+.ico-box-1 h3 {
+	color: #33d6ff;
+}
+
+.ico-box h3,
+.ico-box-1 h3 {
+	text-transform: uppercase;
+}
+
+
+.ico-box p,
+.ico-box-1 p {
+	padding: 5px;
+}
+
+.works h1 {
+	text-transform: uppercase;
+}
+
+.photo1,
+.photo2 {
+	position: relative;
+	overflow: hidden;
+}
+
+.photo1 .layer,
+.photo2 .layer{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: background 300ms;
+  color: #fff;
+  text-align: center;
+}
+
+.photo1 .layer .fa,
+.photo2 .layer .fa {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0;
+  transition: opacity 300ms;
+}
+
+
+.photo1:hover .layer,
+.photo2:hover .layer {
+  background: rgba(0, 0, 0, .3);
+}
+
+.photo1:hover .layer .fa,
+.photo2:hover .layer .fa {
+  opacity: 1;
+}
+
+
+.gallery {
+	line-height: 0;
+}
+
+.worker {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+
+
+.worker .layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: background 300ms;
+  color: #fff;
+  text-align: center;
+}
+
+.worker .layer p {
+  margin: 0;
+  line-height: 100px;
+  font-size: 26px;
+  text-transform: uppercase;
+  opacity: 0;
+  transition: opacity 300ms;
+}
+
+.worker:hover .layer {
+  background: rgba(0, 0, 0, .3);
+}
+
+.worker:hover .layer p {
+  opacity: 1;
+}
+
+.worker img {
+  max-width: 150%;
+}
+
+.worker:hover {
+	cursor: pointer;
+}
+
+.workers {
+	height: 100%;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+.workers p {
+	text-align: center;
+}
+
+
+.lorem {
+	display: inline-block;
+}
+
+.obraz img {
+	max-width: 100%;
+	max-height: 300px;
+}	
+.obraz {
+	padding: 0;
+}
+
+
+.news {
+	background-color: #ccc;
+
+}
+
+
+
+.numbers p {
+	text-transform: uppercase;
+	color: #33d6ff;
+	font-weight: bold;
+}
+
+.numbers h2 {
+	font-weight: bold;
+}
+
+.numbers {
+	margin: 5% 15%;
+	text-align: center;
+}
+
+.text h2{
+	padding: 2px;
+	text-transform: uppercase;
+	
+}
+
+.text .two {
+	font-style: italic;
+	margin: 0 5px;
+}
+
+
+
+footer {
+	text-align: center;
+	color: #fff;
+	background-color: black;
+}
+
+.git {
+	margin: 0 auto;
+	display: block;
+}
+
+.wartosci {
+	text-align: center;
+}
+
+
+.social button i:hover {
+	color: blue;
+	cursor: pointer;
+}
+
+.headlines {
+	font-weight: bold;
+}
+
+footer p {
+	margin-bottom: 0;
+}
+
+	
+
+	
+
+
+	
+
+
+
+	
